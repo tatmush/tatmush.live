@@ -90,3 +90,11 @@ ul {
   background: #6c757d;
   border-radius: 100%;
 }
+
+p, ul, li {
+  padding: 0;
+}
+
+.card-body h3 {
+  padding: 0;
+}
