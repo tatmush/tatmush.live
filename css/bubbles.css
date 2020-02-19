@@ -1,9 +1,8 @@
 body {
-    background-image: url('under_water4.jpeg');
-    background-size: cover; /* Resize the background image to cover the entire container */
-    background: rgb(25,42,121);
-    background: linear-gradient(0deg, rgba(25,42,121,1) 19%, rgba(34,193,195,1) 85%); 
-
+    background-image: url('joina.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #background-wrap {
@@ -15,14 +14,14 @@ body {
     z-index: -1;
 }
 
-#background-wrap1 {
+/* #background-wrap1 {
     bottom: 0;
     left: 0;
     position: fixed;
     right: 0;
     top: 0;
     
-}
+} */
 
 /* KEYFRAMES */
 
@@ -251,7 +250,7 @@ body {
     position: absolute;
     width: 180px;
 }
-
+ 
 .bubbleNotFound {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -261,10 +260,10 @@ body {
     -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(235, 11, 59,77);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(235, 11, 59,77);
     
-    height: 200px;
-    position: absolute;
-    width: 200px;
-    padding-top: 80px;
+    height: 100px;
+    position: fixed;
+    width: 100px;
+    padding-top: 5%;
 }
 
 .bubbleFound {
@@ -276,8 +275,8 @@ body {
     -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(235, 11, 59,77);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(19, 191, 70,77);
     
-    height: 200px;
-    position: absolute;
-    width: 200px;
-    padding-top: 80px;
+    height: 100px;
+    position: fixed;
+    width: 100px;
+    padding-top: 5%;
 }
