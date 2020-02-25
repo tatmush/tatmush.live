@@ -99,16 +99,6 @@ p, ul, li {
   padding: 0;
 }
 
-/* Footer class in Lost and Found page */
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}
-
 section div div ul li a {
   color: white;
 }
